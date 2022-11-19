@@ -1,0 +1,32 @@
+.wrapper {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+}
+
+.question {
+  color: white;
+  padding: 30px;
+  margin: 30px;
+  border: 2px solid #447a82;
+  width: 90%;
+}
+
+.answer-wrapper {
+  padding: 0;
+  width: 100%;
+}
+.button-wrapper {
+  width: 100%;
+}
+.action-button {
+  position: absolute;
+  margin: 30px;
+  color: #fff;
+  z-index: 100;
+}
+.prev-button {
+  left: 0;
+}

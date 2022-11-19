@@ -1,0 +1,40 @@
+/* .wrapper {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+}
+
+.question {
+  color: white;
+  padding: 30px;
+  margin: 30px;
+  border: 2px solid #447a82;
+  width: 90%;
+} */
+
+.answer-item {
+  list-style: none;
+  padding: 20px;
+}
+
+.answer-item button {
+  margin: 0;
+  background-color: none;
+  border: 0;
+  color: #447a82;
+  font-size: 18px;
+  background-color: #010101;
+  display: flex;
+  align-items: center;
+}
+
+.answer-item button span {
+  text-align: left;
+}
+
+.select-icon {
+  margin-right: 15px;
+  width: 30px;
+}

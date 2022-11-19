@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.title {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  max-width: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+.button {
+  position: absolute;
+  bottom: 100px;
+  width: 80%;
+  max-width: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+}
